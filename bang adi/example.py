@@ -170,7 +170,3 @@ Smoking Warung
         print('Kembalian    :', kembalian)
     print('--------------------------')
     pilihan = input('Mau pesan lagi ?? Y/N =')
-
-
-
-
