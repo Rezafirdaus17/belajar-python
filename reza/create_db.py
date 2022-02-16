@@ -1,7 +1,7 @@
 import mysql.connector
 
 
-db = mysql.connector.connect(
+database = mysql.connector.connect(
   host="localhost",
   user="root",
   password=""
@@ -9,7 +9,7 @@ db = mysql.connector.connect(
 
 db_created = "CREATE DATABASE toko_mainan"
 
-cursor = db.cursor()
+cursor = database.cursor()
 cursor.execute(db_created)
 
 print("db berhasil dibuat")
