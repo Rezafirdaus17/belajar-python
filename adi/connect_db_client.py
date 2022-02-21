@@ -10,6 +10,7 @@ if db.is_connected():
     print('berhasil terhubung kedatabase')
 else:
     print('tidak dapat terhubung')
+    print('tambah mumet')
 
 
 
